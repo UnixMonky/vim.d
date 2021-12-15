@@ -21,9 +21,14 @@ set backupdir=/tmp      " path of backup file
 set directory=/tmp      " path of swap file
 
 " Set Solarized Theme
+"syntax enable
+"set background=dark
+"colorscheme solarized
+
+" Set Dracula Theme
+packadd! dracula
 syntax enable
-set background=dark
-colorscheme solarized
+colorscheme dracula
 
 " set font
 if has('gui_running')
